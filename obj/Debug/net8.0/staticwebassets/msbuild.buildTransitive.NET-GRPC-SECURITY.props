@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\NET-GRPC-SECURITY.props" />
+</Project>

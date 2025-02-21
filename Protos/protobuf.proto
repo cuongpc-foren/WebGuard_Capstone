@@ -1,0 +1,53 @@
+syntax = "proto3";
+
+option csharp_namespace = "NET_GRPC_SECURITY";
+
+import "google/api/annotations.proto";
+
+package protobuf;
+
+service Protobuf{
+    // WAF verification 
+rpc RequestVerificationAsync(RequestMessage) returns (ResponseMessage) {
+    option (google.api.http) = {
+        post: "/v1/RequestVerify"
+        body: "*"
+    };
+}
+}
+
+message RequestMessage {
+    string Method = 1;
+    string Path = 2;
+    string Protocol = 3;
+    string ContentType = 4;
+    int32 ContentLength = 5;   
+    map<string, string> Queries = 6;
+    map<string, string> Headers = 7;
+    map<string, string> Cookies = 8;
+    string Body = 9;
+    string QueryString = 10;       
+    bool HasFormContentType = 11;
+    repeated FileMessage Files = 12;
+    string Source = 13;
+    string Action = 14;
+}
+
+message FileMessage {
+    int32 Length = 1;
+    string FileHash = 2;
+    bytes FileContent = 3;
+    string FileName = 4;
+}
+
+message ResponseMessage {
+    bool IsSecurity = 1;
+    int32 StatusCode = 2;
+    string Message = 3;
+}
+
+
+
+
+
+ 

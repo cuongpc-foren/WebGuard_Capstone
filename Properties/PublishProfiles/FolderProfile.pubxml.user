@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\MENU\Major\Capstone\WebGuard\NET-GRPC-SECURITY\bin\Release\net8.0\publish\</_PublishTargetUrl>
+    <History>True|2024-12-16T06:10:47.8053143Z||;True|2024-12-16T00:00:10.5065208+07:00||;True|2024-12-15T14:11:36.8737981+07:00||;True|2024-12-15T13:59:54.0859383+07:00||;True|2024-12-15T00:31:20.9024924+07:00||;True|2024-12-14T20:57:31.0560090+07:00||;True|2024-12-14T16:22:07.1762143+07:00||;True|2024-12-14T14:37:25.0393704+07:00||;True|2024-12-12T20:49:41.9639621+07:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

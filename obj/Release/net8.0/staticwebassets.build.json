@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "GAahQV/5fg6xg9FaqPTvtiprlgqUlITIVwM6AlCTNMw=",
+  "Source": "NET-GRPC-SECURITY",
+  "BasePath": "_content/NET-GRPC-SECURITY",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

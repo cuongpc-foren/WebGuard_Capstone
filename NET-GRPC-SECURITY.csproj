@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Protobuf Include="Protos\protobuf.proto" GrpcServices="Server" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Autofac.Extensions.DependencyInjection" Version="10.0.0" />
+		<PackageReference Include="Dapper" Version="2.1.35" />
+		<PackageReference Include="Grpc.AspNetCore" Version="2.65.0" />
+		<PackageReference Include="Grpc.Tools" Version="2.65.0">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.AspNetCore.Grpc.JsonTranscoding" Version="8.0.8" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.8">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.8" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\ALERT\ALERT.csproj" />
+		<ProjectReference Include="..\DASHBOARD-DBConnection\DBConnection.csproj" />
+		<ProjectReference Include="..\Dashboard-Services\DASHBOARD-Services.csproj" />
+		<ProjectReference Include="..\IDS-SECURITY\IDS-SECURITY.csproj" />
+		<ProjectReference Include="..\LOGGER\LOGGER.csproj" />
+		<ProjectReference Include="..\NET-SECURITY-DATAACCESS\NET-SECURITY-DATAACCESS.csproj" />
+		<ProjectReference Include="..\NET-SECURITY-MODEL\NET-SECURITY-MODEL.csproj" />
+		<ProjectReference Include="..\WAF-SECURITY\WAF-SECURITY.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Ultil\AV-Scanning\" />
+	</ItemGroup>
+
+</Project>

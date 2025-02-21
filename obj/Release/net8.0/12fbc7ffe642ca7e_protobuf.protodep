@@ -1,0 +1,5 @@
+obj\Release\net8.0\Protos/Protobuf.cs \
+obj\Release\net8.0\Protos/ProtobufGrpc.cs: google/api/http.proto\
+ C:/Users/cuong/.nuget/packages/grpc.tools/2.65.0/build/native/include/google/protobuf/descriptor.proto\
+ google/api/annotations.proto\
+ Protos/protobuf.proto

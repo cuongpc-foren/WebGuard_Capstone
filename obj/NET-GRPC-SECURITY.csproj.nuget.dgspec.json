@@ -1,0 +1,945 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-GRPC-SECURITY\\NET-GRPC-SECURITY.csproj": {}
+  },
+  "projects": {
+    "D:\\MENU\\Major\\Capstone\\WebGuard\\ALERT\\ALERT.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MENU\\Major\\Capstone\\WebGuard\\ALERT\\ALERT.csproj",
+        "projectName": "ALERT",
+        "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\ALERT\\ALERT.csproj",
+        "packagesPath": "C:\\Users\\cuong\\.nuget\\packages\\",
+        "outputPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\ALERT\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-DBConnection\\DBConnection.csproj": {
+                "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-DBConnection\\DBConnection.csproj"
+              },
+              "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-DATAACCESS\\NET-SECURITY-DATAACCESS.csproj": {
+                "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-DATAACCESS\\NET-SECURITY-DATAACCESS.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Common": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Core": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-DBConnection\\DBConnection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-DBConnection\\DBConnection.csproj",
+        "projectName": "DBConnection",
+        "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-DBConnection\\DBConnection.csproj",
+        "packagesPath": "C:\\Users\\cuong\\.nuget\\packages\\",
+        "outputPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-DBConnection\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MENU\\Major\\Capstone\\WebGuard\\Dashboard-Services\\DASHBOARD-Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MENU\\Major\\Capstone\\WebGuard\\Dashboard-Services\\DASHBOARD-Services.csproj",
+        "projectName": "DASHBOARD-Services",
+        "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\Dashboard-Services\\DASHBOARD-Services.csproj",
+        "packagesPath": "C:\\Users\\cuong\\.nuget\\packages\\",
+        "outputPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\Dashboard-Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-DBConnection\\DBConnection.csproj": {
+                "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-DBConnection\\DBConnection.csproj"
+              },
+              "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-VIEWMODEL\\DASHBOARD-VIEWMODEL.csproj": {
+                "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-VIEWMODEL\\DASHBOARD-VIEWMODEL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-VIEWMODEL\\DASHBOARD-VIEWMODEL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-VIEWMODEL\\DASHBOARD-VIEWMODEL.csproj",
+        "projectName": "DASHBOARD-VIEWMODEL",
+        "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-VIEWMODEL\\DASHBOARD-VIEWMODEL.csproj",
+        "packagesPath": "C:\\Users\\cuong\\.nuget\\packages\\",
+        "outputPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-VIEWMODEL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-DBConnection\\DBConnection.csproj": {
+                "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-DBConnection\\DBConnection.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MENU\\Major\\Capstone\\WebGuard\\IDS-SECURITY\\IDS-SECURITY.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MENU\\Major\\Capstone\\WebGuard\\IDS-SECURITY\\IDS-SECURITY.csproj",
+        "projectName": "IDS-SECURITY",
+        "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\IDS-SECURITY\\IDS-SECURITY.csproj",
+        "packagesPath": "C:\\Users\\cuong\\.nuget\\packages\\",
+        "outputPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\IDS-SECURITY\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-DATAACCESS\\NET-SECURITY-DATAACCESS.csproj": {
+                "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-DATAACCESS\\NET-SECURITY-DATAACCESS.csproj"
+              },
+              "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-MODEL\\NET-SECURITY-MODEL.csproj": {
+                "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-MODEL\\NET-SECURITY-MODEL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AhoCorasick.Net": {
+              "target": "Package",
+              "version": "[0.5.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MENU\\Major\\Capstone\\WebGuard\\LOGGER\\LOGGER.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MENU\\Major\\Capstone\\WebGuard\\LOGGER\\LOGGER.csproj",
+        "projectName": "LOGGER",
+        "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\LOGGER\\LOGGER.csproj",
+        "packagesPath": "C:\\Users\\cuong\\.nuget\\packages\\",
+        "outputPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\LOGGER\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-DBConnection\\DBConnection.csproj": {
+                "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-DBConnection\\DBConnection.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.119, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-GRPC-SECURITY\\NET-GRPC-SECURITY.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-GRPC-SECURITY\\NET-GRPC-SECURITY.csproj",
+        "projectName": "NET-GRPC-SECURITY",
+        "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-GRPC-SECURITY\\NET-GRPC-SECURITY.csproj",
+        "packagesPath": "C:\\Users\\cuong\\.nuget\\packages\\",
+        "outputPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-GRPC-SECURITY\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\MENU\\Major\\Capstone\\WebGuard\\ALERT\\ALERT.csproj": {
+                "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\ALERT\\ALERT.csproj"
+              },
+              "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-DBConnection\\DBConnection.csproj": {
+                "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-DBConnection\\DBConnection.csproj"
+              },
+              "D:\\MENU\\Major\\Capstone\\WebGuard\\Dashboard-Services\\DASHBOARD-Services.csproj": {
+                "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\Dashboard-Services\\DASHBOARD-Services.csproj"
+              },
+              "D:\\MENU\\Major\\Capstone\\WebGuard\\IDS-SECURITY\\IDS-SECURITY.csproj": {
+                "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\IDS-SECURITY\\IDS-SECURITY.csproj"
+              },
+              "D:\\MENU\\Major\\Capstone\\WebGuard\\LOGGER\\LOGGER.csproj": {
+                "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\LOGGER\\LOGGER.csproj"
+              },
+              "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-DATAACCESS\\NET-SECURITY-DATAACCESS.csproj": {
+                "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-DATAACCESS\\NET-SECURITY-DATAACCESS.csproj"
+              },
+              "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-MODEL\\NET-SECURITY-MODEL.csproj": {
+                "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-MODEL\\NET-SECURITY-MODEL.csproj"
+              },
+              "D:\\MENU\\Major\\Capstone\\WebGuard\\WAF-SECURITY\\WAF-SECURITY.csproj": {
+                "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\WAF-SECURITY\\WAF-SECURITY.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.65.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.65.0, )"
+            },
+            "Microsoft.AspNetCore.Grpc.JsonTranscoding": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-DATAACCESS\\NET-SECURITY-DATAACCESS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-DATAACCESS\\NET-SECURITY-DATAACCESS.csproj",
+        "projectName": "NET-SECURITY-DATAACCESS",
+        "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-DATAACCESS\\NET-SECURITY-DATAACCESS.csproj",
+        "packagesPath": "C:\\Users\\cuong\\.nuget\\packages\\",
+        "outputPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-DATAACCESS\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Design": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "SQLitePCLRaw.bundle_e_sqlcipher": {
+              "target": "Package",
+              "version": "[2.1.9, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-MODEL\\NET-SECURITY-MODEL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-MODEL\\NET-SECURITY-MODEL.csproj",
+        "projectName": "NET-SECURITY-MODEL",
+        "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-MODEL\\NET-SECURITY-MODEL.csproj",
+        "packagesPath": "C:\\Users\\cuong\\.nuget\\packages\\",
+        "outputPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-MODEL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.28.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\MENU\\Major\\Capstone\\WebGuard\\WAF-SECURITY\\WAF-SECURITY.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MENU\\Major\\Capstone\\WebGuard\\WAF-SECURITY\\WAF-SECURITY.csproj",
+        "projectName": "WAF-SECURITY",
+        "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\WAF-SECURITY\\WAF-SECURITY.csproj",
+        "packagesPath": "C:\\Users\\cuong\\.nuget\\packages\\",
+        "outputPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\WAF-SECURITY\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-DBConnection\\DBConnection.csproj": {
+                "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\DASHBOARD-DBConnection\\DBConnection.csproj"
+              },
+              "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-DATAACCESS\\NET-SECURITY-DATAACCESS.csproj": {
+                "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-DATAACCESS\\NET-SECURITY-DATAACCESS.csproj"
+              },
+              "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-MODEL\\NET-SECURITY-MODEL.csproj": {
+                "projectPath": "D:\\MENU\\Major\\Capstone\\WebGuard\\NET-SECURITY-MODEL\\NET-SECURITY-MODEL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AhoCorasick.Net": {
+              "target": "Package",
+              "version": "[0.5.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
